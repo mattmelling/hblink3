@@ -1,0 +1,46 @@
+{
+  "nodes": {
+    "dmr-utils3": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1677098821,
+        "narHash": "sha256-S744zws07kUaevUBP3xWh8xBLcGfLUYJ97sAGtrS4pg=",
+        "owner": "mattmelling",
+        "repo": "dmr_utils3",
+        "rev": "ffa84674e4bb19ae2a6a0f8d79b1509ffa5a88cf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mattmelling",
+        "repo": "dmr_utils3",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1676790509,
+        "narHash": "sha256-W9uWAWokgS8US8rJf79qBLS2M+ZgIscfoz+KsNE7VGQ=",
+        "path": "/nix/store/is6r1f26rhs76n9shr32pgzy36ndxnkg-source",
+        "rev": "a1291d0d020a200c7ce3c48e96090bfa4890a475",
+        "revCount": 455838,
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "dmr-utils3": "dmr-utils3",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
